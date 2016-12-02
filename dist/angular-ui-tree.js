@@ -415,7 +415,7 @@
                 scope.dragEnabled = val;
               }
             });
-
+            /*
             scope.$watch(attrs.emptyPlaceholderEnabled, function (val) {
               if ((typeof val) == 'boolean') {
                 scope.emptyPlaceholderEnabled = val;
@@ -446,7 +446,7 @@
                 scope.dragDelay = val;
               }
             });
-
+            */
             /**
              * Callback checks if the destination node can accept the dragged node.
              * By default, ui-tree will check that 'data-nodrop-enabled' is not set for the
@@ -659,11 +659,12 @@
             });
 
             //Watches to trigger behavior based on actions and settings.
+            /*
             scope.$watch('collapsed', function (val) {
               UiTreeHelper.setNodeAttribute(scope, 'collapsed', val);
               attrs.$set('collapsed', val);
             });
-
+            
             scope.$watch(attrs.expandOnHover, function(val) {
               if ((typeof val) === 'boolean' || (typeof val) === 'number') {
                 scope.expandOnHover = val;
@@ -686,7 +687,7 @@
               attrs.$set('scrollContainer', val);
               scrollContainerElm = document.querySelector(val);
             });
-
+            */
             scope.$on('angular-ui-tree:collapse-all', function () {
               scope.collapsed = true;
             });
