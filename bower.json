@@ -1,11 +1,9 @@
 {
   "name": "angular-ui-tree-yc",
   "version": "2.22.1",
-  "homepage": "https://github.com/angular-ui-tree/angular-ui-tree",
+  "homepage": "https://github.com/youneschaoui/angular-ui-tree",
   "authors": [
-    "Jim Liu <https://github.com/JimLiu>",
-    "Voles <https://github.com/Voles>",
-    "Stefan Mohr <https://github.com/StefanCodes>"
+    
   ],
   "description": "Tree directive for AngularJS",
   "main": [
